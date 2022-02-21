@@ -1,0 +1,213 @@
+:root {
+    --principal1: #79aaf4;
+    --secundary1: #f52626;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Lora', serif;
+    
+}
+
+header.header-responsive{
+    margin:0px;
+    width: 100%;
+    border: 2px solid ;
+    height: 8.5vw;
+    position: relative;
+    
+}
+ 
+#lololo{
+    background-color: var(--principal1); 
+    font-size: 1.2vw; 
+}
+
+div.contacto{
+    margin:0px; 
+    cursor: pointer;
+}
+
+div.contacto h3{
+    text-align: right;
+    padding-right: 1vw;
+    font-size: 1vw;
+    margin: 0px;
+}
+
+.show_modal{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+    background-color: #698298 ;
+    padding:10% 20% 0% 20%;
+}
+
+form.order{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    width: 40%;
+    background-color: (--secundary1);
+    padding: 5%;
+    margin-left: 30%;
+    font-size: 1.2vw;
+    border-radius: 20px;
+}
+
+.modal-title{
+    color: aliceblue;
+    font-size: 2vw;
+}
+
+
+form.order button{
+    width: 20%;
+    margin-top: 5%;
+    position: relative;
+    left: 80%;
+    font-size: 1vw;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+}
+
+.mark-closed{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 3vw;
+    cursor: pointer;
+    color: azure;
+}
+
+.mark-closed:hover{
+    border: 1px solid black;
+}
+
+.closemodal{
+    display: none;
+}
+
+.principal-header-accoount{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-logo-image{
+    position: relative;
+    width: 17.5%;
+    top:6px;
+    left: 10px;
+}
+
+.div-buscador-header{
+    margin-top:1.5%;
+    position: relative;
+    padding:5%;
+    width: 18%;
+
+}
+
+div.div-buscador-header input{
+    width: 100%;
+    padding:4%;
+}
+
+.glass{
+    position: absolute;
+    right: 15%;
+    top:30%;
+}
+
+.div-buscador-header{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    margin-top: 0px;
+    right: 40%;
+    padding-right: 1vw;
+    font-size: 1vw;
+    margin: 0px;
+}
+
+.div-buscador-header input{
+    position: relative;
+    text-align: center;
+     width: 3vw;
+    height: 3vw;
+    right: 50px;
+    font-size: 1vw;
+    margin: 0px;
+    border-radius: 3px;
+}
+.div-buscador-header i{
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    font-size: 1vw;
+    left: 35%;
+    bottom:25px;    
+}
+
+div.div-buscador-header{
+    cursor: pointer;
+}
+.div-user-car{
+    position:relative;
+    text-align: right;
+    bottom: 45%;
+    font-size: 1.5vw;
+}
+
+.div-user{
+    cursor: pointer;
+}
+
+.div-car{
+    cursor: pointer;
+}
+
+
+section.container-images-flex{  
+    position: relative;
+    display: flex;
+    flex-direction:column;
+} 
+
+.container-row-flex{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-flex-product{
+    display: flex;
+    flex-direction: column; 
+       
+}
+.description-card{
+    text-align: center;
+    font-size: 1vw;
+    
+}
+.card-product{
+    margin-left: 10%;
+    border-radius: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+}
